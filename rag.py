@@ -16,9 +16,9 @@ st.set_page_config(page_title="college chatbot", layout="wide")
 
 
 
-#api_key = st.text_input("Enter your Google API Key:", type="password", key="api_key_input")
+api_key = st.text_input("Enter your Google API Key:", type="password", key="api_key_input")
 
-api_key="AIzaSyBk06_9uPwZPpxXSG7G_fs0of0iV2GPNFc"
+
 def get_pdf_text(pdf_docs):
     text = ""
     for pdf in pdf_docs:
